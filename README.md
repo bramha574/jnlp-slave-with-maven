@@ -9,6 +9,8 @@ $docker bulild .
 This is an image for Jenkins agent using JNLP (from jenkins/jnlp) to establish connection and maven installed (It also includes g++, gcc).
 This agent is powered by the Jenkins Remoting library, which version is being taken from the base Docker Agent image.
 
+Download apache-maven-3.5.0-bin.tar.gz (Download Link: http://mirrors.advancedhosters.com/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz) and keep it in the same folder as Dockerfile.
+
 To run a Docker container
 
 docker run bramha574/jnlp-slave-with-maven -url http://jenkins-server:port <secret> <agent name>
