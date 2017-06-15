@@ -1,4 +1,5 @@
 Jenkins JNLP Agent -Maven Docker File
+(https://hub.docker.com/r/bramha574/jnlp-slave-maven/)
 
 To build an image:
 
