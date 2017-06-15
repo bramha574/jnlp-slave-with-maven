@@ -3,7 +3,14 @@ Jenkins JNLP Agent -Maven Docker File
 
 To build an image:
 
-$docker bulild . 
+Dockerfile should be in the same folder as you run the command or else you can give the path.
+
+$docker bulild -t "image_name_goes_here" .
+
+or 
+
+docker build -t "image_name_goes_here" \home\user\alldockerfiles\jnlp_maven\
+(if file is in (\home\user\alldockerfiles\jnlp_maven folder.))
 
 (you have to be in same folder of the Dockerfile to execute this command)
 
